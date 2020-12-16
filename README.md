@@ -28,7 +28,7 @@
 - Clear instructions on how to run the application in development mode
 - Clear instructions on how to create production builds
 - Logos should be exported in SVG
-- Implement the mobile version using CSS Media Queries (Right side components should be placed below the left side components)
+- Implement the mobile version using CSS Media Queries
 - Hero section should have an A/B test, persistent for the user, that will either display the design version or:
   - Title: Create the childcare you need at a price you can afford
   - Description: Connect with other local families to share a nanny from as low as $10.00/hr each. Create your family profile today to get started.
