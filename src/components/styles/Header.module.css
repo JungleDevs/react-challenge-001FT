@@ -1,0 +1,62 @@
+.header {
+  background: transparent;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  
+}
+
+.navigation {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  margin-left: 1.6rem;
+}
+
+.navbar {
+  display: none;
+}
+
+.userLogin{
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  align-content: flex-end;
+}
+
+.userLogin a {
+  margin-right: 1.6rem;
+  color: var(--white);
+}
+
+.button {
+  padding: 1.2rem 2.2rem;
+  background: var(--brand-color-primary);
+  color: var(--white);
+  border-radius: 0.4rem;
+  line-height: 2rem;
+}
+
+.signin {
+  display: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .badge {
+    padding: 0 0.8rem;
+  }
+
+ .navbar, .signin {
+    display: block;
+  }
+}
+

@@ -1,0 +1,12 @@
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 1.6rem;
+}
+
+.navbar ul li a {
+  color: var(--white);
+}

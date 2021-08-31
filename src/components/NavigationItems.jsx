@@ -1,8 +1,9 @@
 import React from 'react';
+import css from 'components/styles/NavigationItems.module.css';
 
 export default function NavigationItems() {
   return (
-    <nav class="navbar">
+    <nav class={css.navbar}>
       <ul>
         <li>
           <a href="#">Create Your Nanny Share</a>

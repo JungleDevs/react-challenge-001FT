@@ -1,27 +1,28 @@
 import React from 'react';
 import NavigationItems from 'components/NavigationItems';
+import css from 'components/styles/Header.module.css';
 import badge from 'assets/badge.svg';
 
 export default function Header() {
   return (
     <>
-      <header class="header">
-        <section class="navigation">
-          <div class="badge">
+      <header className={css.header}>
+        <section className={css.navigation}>
+          <div className={css.badge}>
             <img src={badge} alt="Hapu Badge" />
           </div>
-          <div class="navbar">
+          <div class={css.navbar}>
             <NavigationItems />
           </div>
         </section>
-        <section class="user-login">
-          <a href="#" class="button">
+        <div className={css.userLogin}>
+          <a href="#" className={css.button}>
             Become a Nanny Share Host
           </a>
-          <a href="#" class="sign-in">
+          <a href="#" class={css.signin}>
             Sign In
           </a>
-        </section>
+        </div>
       </header>
     </>
   );
