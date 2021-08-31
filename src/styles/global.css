@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --background: #FAF9F7;
+  --grey-0: #000;
+  --grey-24: #3D3D3D;
+  --grey-88: #DFDFDF;
+  --white: #FFF;
+  --brand-color-primary: #00A870;
+  --brand-color-secondary: #5E20A4;
+  --overlay: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+
+  /* Fonts */
+  --body-font: 'Inter', sans-serif;
+
+  /* Font sizes */
+  --main-title: 2.8rem;
+  --section-title: 2.2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Convert default font size to 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--background);
+}
+
+@media (min-width: 1366px) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 75%;
+  }
+}
